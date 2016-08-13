@@ -1,6 +1,13 @@
+"use strict";
+
+require('dotenv').config();
+
+const gmapApiKey = process.env.GOOGLE_MAP_API_KEY;
+
 var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
 var config = require('./webpack.config');
+
 
 new WebpackDevServer(webpack(config), {
     publicPath: config.output.publicPath

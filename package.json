@@ -41,7 +41,10 @@
     "webpack-dev-server": "1.14.1"
   },
   "dependencies": {
-    "react": "15.2.1",
-    "react-dom": "15.2.1"
+    "dotenv": "^2.0.0",
+    "react": "15.3.0",
+    "react-addons-update": "^15.3.0",
+    "react-dom": "15.2.1",
+    "react-google-maps": "^4.11.0"
   }
 }
